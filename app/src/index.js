@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <WidgetMeteo zipCode="63270" city="Clermont-Ferrand" />
+    <WidgetMeteo zipCode="33000" city="Bordeaux" />
   </React.StrictMode>,
   document.getElementById('root')
 );
