@@ -1,0 +1,27 @@
+.weather-widget {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  box-shadow: 0.2em 0.2em 0.4em grey;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 1rem auto;
+
+  .weather-container {
+    display: flex;
+   
+    .weather-infos {
+      width: 100%;
+
+        .weather-city {
+          font-size: 1.5em;
+          margin: 0;
+        }
+    }
+
+    .weather-temperature {
+      text-align: right;
+      font-size: 3em;
+      margin: 0;
+    }
+  }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App/App';
+import WidgetMeteo from './components/WidgetMeteo/WidgetMeteo';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WidgetMeteo zipCode="63270" city="Clermont-Ferrand" />
   </React.StrictMode>,
   document.getElementById('root')
 );
